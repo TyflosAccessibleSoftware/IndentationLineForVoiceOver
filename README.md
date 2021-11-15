@@ -6,6 +6,16 @@ AppleScript extension to speak the indentation line for VoiceOver screen reader 
 This AppleScript speaks how many space characters and tap characters are in the last spoken text by VoiceOver.
 This function is usefull for blind developers who can not check the indentation level in a code editor area.
 
+## Setting voice
+
+This script uses *Alex* voice with the rate set to 400 by default.
+
+You can change these options modifying these lines of codes in the script file:
+
+`
+	set voiceName to "Alex"	set voiceRate to 400
+	`
+
 ## Usage
 
 This script says the indentation level of the last line pronounced by VoiceOver.
